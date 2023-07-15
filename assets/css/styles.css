@@ -254,8 +254,8 @@ the website, in dark theme
 @media screen and (max-width: 767px){
   .nav__menu{
     position: fixed;
-    background-color: var(--container-color);
-    width: 80%;
+    background-color: #478ac9;
+    width: 50%;
     height: 100%;
     top: 0;
     right: -100%;
@@ -273,7 +273,7 @@ the website, in dark theme
   top: 1rem;
   right: 1.25rem;
   cursor: pointer;
-  color: #000;
+  color: #fff;
 }
 
 .nav__list{
