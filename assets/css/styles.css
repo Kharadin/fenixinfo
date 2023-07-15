@@ -679,7 +679,8 @@ the website, in dark theme
 
 }
 .giff2 {
-  background-image: url(https:res.cloudinary.com/dqb4zh2u8/image/upload/v1688229819/Comp_1-Compressed2-78mbps_1_ymsx7t.gif)
+  background-image: url(https://res.cloudinary.com/dqb4zh2u8/image/upload/v1688229819/Comp_1-Compressed2-78mbps_1_ymsx7t.gif);
+ 
 }
 .vids__container {
   /* width: 100%; */
