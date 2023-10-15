@@ -164,7 +164,7 @@ the website, in dark theme
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
-  padding: 5.5rem 0 1rem;
+  padding: 1.5rem 0 1rem;
 }
 
 .section__title,
@@ -1194,7 +1194,7 @@ iframe {
   }
 
   .section{
-    padding: 8rem 0 1rem;
+    padding: 1 rem 0 1rem;
   }
   .section__title,
   .section__title-center{
