@@ -1,3 +1,18 @@
+window.addEventListener('load', function() {
+    alert('page loaded');
+    let gifElement = document.querySelector('.gif1');
+    if (gifElement) {
+      gifElement.style.backgroundImage = 'url(https://res.cloudinary.com/dqb4zh2u8/image/upload/v1688227815/FenixGifs/WithFullStackAnimatedBanner_1_e9lana.gif)';
+    }
+     gifElement = document.querySelector('.gif2');
+    if (gifElement) {
+      gifElement.style.backgroundImage = 'url(https://res.cloudinary.com/dqb4zh2u8/image/upload/v1688229819/Comp_1-Compressed2-78mbps_1_ymsx7t.gif)';
+    }
+
+
+
+  });
+
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
