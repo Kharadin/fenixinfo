@@ -1,12 +1,16 @@
 window.addEventListener('load', function() {
     // alert('page loaded');
-    let gifElement = document.querySelector('.gif1');
-    if (gifElement) {
-      gifElement.style.backgroundImage = 'url(https://res.cloudinary.com/dqb4zh2u8/image/upload/v1688227815/FenixGifs/WithFullStackAnimatedBanner_1_e9lana.gif)';
+    let giffs = document.getElementsByClassName('giff1');
+    console.log(giffs)
+    let giff1 = giffs[0];
+    let giff2 = giffs[1];
+    console.log(giff1)
+    if (giff1) {
+      giff1.style.backgroundImage = 'url(https://res.cloudinary.com/dqb4zh2u8/image/upload/v1688227815/FenixGifs/WithFullStackAnimatedBanner_1_e9lana.gif)';
     }
-     gifElement = document.querySelector('.gif2');
-    if (gifElement) {
-      gifElement.style.backgroundImage = 'url(https://res.cloudinary.com/dqb4zh2u8/image/upload/v1688229819/Comp_1-Compressed2-78mbps_1_ymsx7t.gif)';
+   
+    if (giff2) {
+        giff2.style.backgroundImage = 'url(https://res.cloudinary.com/dqb4zh2u8/image/upload/v1688229819/Comp_1-Compressed2-78mbps_1_ymsx7t.gif)';
     }
 
 
@@ -54,8 +58,12 @@ window.addEventListener('scroll', scrollHeader)
 
 /*=============== QUESTIONS ACCORDION ===============*/
 const accordionItems = document.querySelectorAll('.questions__item')
+ 
+console.log(accordionItems);
+
 
 accordionItems.forEach((item) =>{
+    // alert('for each working')
     const accordionHeader = item.querySelector('.questions__header')
 
     accordionHeader.addEventListener('click', () =>{
@@ -65,7 +73,7 @@ accordionItems.forEach((item) =>{
 
         if(openItem && openItem!== item){
             toggleItem(openItem)
-        }
+        } 
     })
 })
 
