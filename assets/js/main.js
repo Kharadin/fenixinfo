@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
     // alert('page loaded');
-    let giffs = document.getElementsByClassName('giff1');
+    let giffs = document.getElementsByClassName('giff');
     console.log(giffs)
     let giff1 = giffs[0];
     let giff2 = giffs[1];
