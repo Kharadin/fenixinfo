@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-    alert('page loaded');
+    // alert('page loaded');
     let gifElement = document.querySelector('.gif1');
     if (gifElement) {
       gifElement.style.backgroundImage = 'url(https://res.cloudinary.com/dqb4zh2u8/image/upload/v1688227815/FenixGifs/WithFullStackAnimatedBanner_1_e9lana.gif)';
