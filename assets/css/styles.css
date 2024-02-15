@@ -79,6 +79,15 @@ textarea{
   font-size: var(--normal-font-size);
 }
 
+html,body {
+  width:100%;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+  /* overflow-x:auto ; */
+  overflow-y:visible;
+}
+
 body{
   /* margin: var(--header-height) 0 0 0; */
   background-color: var(--body-color);
@@ -326,6 +335,7 @@ the website, in dark theme
 .home__container{
   position: relative;
   row-gap: 2rem;
+  padding: 0 20px;
 }
 
 .home__img{
@@ -931,6 +941,13 @@ iframe {
 }
 
 /*=============== FOOTER ===============*/
+
+.footer {
+  height: 120px;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: end;
+}
 .footer__container{
   row-gap: 3rem;
 }
@@ -1069,10 +1086,14 @@ iframe {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
-
-  .home__img{
-    width: 180px;
+  .home{
+    padding: 5rem 0 5rem;
   }
+  .home__img{
+    width: 15rem;
+    order: 1;
+  }
+  
   .home__title{
     font-size: var(--h1-font-size);
   }
@@ -1080,7 +1101,7 @@ iframe {
     font-size: var(--h1-font-size);
    text-align: center;
   }
-
+}
 #animHeading span {
   display: inline-block; /* To treat each span as an inline element */
   transition: color  0.5s; /* Smooth transition for color change */
@@ -1092,7 +1113,7 @@ iframe {
 /* Background color to see the inversion effect */
 /* body {
   background-color: #000; /* Black background */
-} */
+ */
   .steps__bg{
     padding: 2rem 1rem;
   }
@@ -1112,7 +1133,7 @@ iframe {
     width: 90vw;
     height: 50.6vw;
   }
-}
+
 
 /* For medium devices */
 @media screen and (min-width: 576px){
@@ -1120,6 +1141,13 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .home{
+    padding: 5rem 0 5rem;
+  }
+  .home__img{
+    width: 15rem;
+    order: 1;
+  }
   .product__description{
     padding: 0 4rem;
   }
@@ -1132,6 +1160,8 @@ iframe {
   .footer__subscribe{
     width: 400px;
   }
+
+
   iframe {
     width: 90vw;
     height: 50.6vw;
@@ -1159,6 +1189,8 @@ iframe {
     margin-left: auto;
   }
 
+  
+
   .home__container,
   .about__container,
   .questions__container,
@@ -1168,11 +1200,14 @@ iframe {
   }
   
   .home{
-    padding: 10rem 0 5rem;
+    padding: 5rem 0 5rem;
   }
   .home__container{
     align-items: flex-start;
   }
+        /* .image__block {
+          width: 20rem;
+        } */
   .home__img{
     width: 280px;
     order: 1;
@@ -1295,7 +1330,7 @@ iframe {
     grid-template-columns: 1fr .5fr .5fr .5fr;
   }
   .footer__copy{
-    margin: 7rem 0 2rem;
+    margin: 5rem 0 2rem;
   }
   .home__social{
     right: -3rem;
