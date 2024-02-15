@@ -85,7 +85,7 @@ html,body {
   margin: 0px;
   padding: 0px;
   /* overflow-x:auto ; */
-  overflow-y:scroll;
+  /* overflow-y:auto  ; */
 }
 
 
@@ -96,11 +96,12 @@ body{
   transition: .4s; /*For animation dark mode*/
   background-image: url(/background.jpeg);
 
-  background-size: cover;
+  background-size: 1448px;
+  
   background-position: 0px  56px;
 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat:repeat-y;
+  background-attachment: scroll;
 
 }
 
@@ -1099,8 +1100,9 @@ iframe {
     font-size: var(--h1-font-size);
   }
   .home__freeTrial{
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
    text-align: center;
+   color: #478ac9;
   }
 }
 #animHeading span {
