@@ -31,9 +31,9 @@ window.addEventListener('load', function() {
 
   });
 
-  window.onload = function() {
+
     
-  };
+ 
 
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
