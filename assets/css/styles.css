@@ -820,12 +820,23 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background: rgba(38, 38, 38, 0.7); */
+  
+}
+.h5 {
+  background: rgba(38, 38, 38, 0.7);
+
 }
 .contact__item a {
   font-size: var(--small-font-size);
   /* color: var(--text-color); */
   color: #FFF;
   background: rgba(38, 38, 38, 0.7);
+}
+
+.contact__item h5 {
+  background: rgba(38, 38, 38, 0.7);
+
 }
 
 .contact__data{
@@ -1065,7 +1076,23 @@ iframe {
   .home__title{
     font-size: var(--h1-font-size);
   }
+  .home__freeTrial{
+    font-size: var(--h1-font-size);
+   text-align: center;
+  }
 
+#animHeading span {
+  display: inline-block; /* To treat each span as an inline element */
+  transition: color  0.5s; /* Smooth transition for color change */
+}
+.invert {
+  color: #fff; /* White color for inversion */
+}
+
+/* Background color to see the inversion effect */
+/* body {
+  background-color: #000; /* Black background */
+} */
   .steps__bg{
     padding: 2rem 1rem;
   }
