@@ -91,17 +91,19 @@ html,body {
 
 body{
   /* margin: var(--header-height) 0 0 0; */
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
   color: var(--text-color);
-  transition: .4s; /*For animation dark mode*/
+  /* transition: .4s;  */
+  /*For animation dark mode*/
   background-image: url(/background.jpeg);
 
-  background-size: 1448px;
+  background-size: cover;
+  
   
   background-position: 0px  56px;
 
-  background-repeat:repeat-y;
-  background-attachment: scroll;
+  background-repeat:no-repeat;
+  background-attachment: fixed, fixed;
 
 }
 
