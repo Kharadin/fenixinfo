@@ -85,8 +85,9 @@ html,body {
   margin: 0px;
   padding: 0px;
   /* overflow-x:auto ; */
-  /* overflow-y:visible; */
+  overflow-y:scroll;
 }
+
 
 body{
   /* margin: var(--header-height) 0 0 0; */
