@@ -97,7 +97,7 @@ body{
   /*For animation dark mode*/
   background-image: url(/background.jpeg);
 
-  background-size: cover;
+  background-size: 100% 100%;
   
   
   background-position: 0px  56px;
@@ -159,12 +159,7 @@ Color changes in some parts of
 the website, in dark theme 
 ==========*/
 
-.dark-theme .steps__bg {
 
-}
-.dark-theme .questions{
-  /* background-color: var(--first-color-dark); */
-}
 
 .dark-theme .product__circle,
 .dark-theme .footer__subscribe{
@@ -409,9 +404,7 @@ the website, in dark theme
   /* transition: .3s; */
 }
 
-.home__social-link:hover{
-  /* transform: translateX(.25rem); */
-}
+
 .image__block {
   /* margin-left: 5vw; */
   justify-self: center;
@@ -1106,7 +1099,19 @@ iframe {
    text-align: center;
    color: #478ac9;
   }
+  body {
+
+    background-size: 1448px ;
+        
+    background-position: 0px  56px;
+    
+    background-repeat: repeat;
+    background-attachment: scroll;
+  }
+
 }
+
+
 #animHeading span {
   display: inline-block; /* To treat each span as an inline element */
   transition: color  0.5s; /* Smooth transition for color change */
@@ -1171,11 +1176,29 @@ iframe {
     width: 90vw;
     height: 50.6vw;
   }
+  body {
+
+    background-size: 1448px ;
+        
+    background-position: 0px  56px;
+    
+    background-repeat: repeat;
+    background-attachment: scroll;
+  }
 }
+
 
 @media screen and (min-width: 767px){
   body{
     margin: 0;
+    background-size: cover;
+  
+  
+  background-position: 0px  56px;
+
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+
   }
 
   .nav{
