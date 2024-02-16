@@ -363,7 +363,7 @@ the website, in dark theme
 }
 
 .home__description{
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: 1rem;
 }
 
 .home__social{
@@ -1108,7 +1108,7 @@ iframe {
     font-size: var(--h1-font-size);
   }
   .home__freeTrial{
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
    text-align: center;
    color: rgb(0, 117, 156)
   }
