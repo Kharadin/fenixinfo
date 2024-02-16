@@ -107,6 +107,19 @@ body{
 
 }
 
+.fixed-img {
+  background-image: url(/background.jpeg);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top:55px;
+  left: 0px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
 button{
   cursor: pointer;
   border: none;
@@ -1084,7 +1097,7 @@ iframe {
     margin-right: var(--mb-1);
   }
   .home{
-    padding: 5rem 0 5rem;
+    padding: 8rem 0 4rem;
   }
   .home__img{
     width: 15rem;
@@ -1097,7 +1110,7 @@ iframe {
   .home__freeTrial{
     font-size: var(--h2-font-size);
    text-align: center;
-   color: #478ac9;
+   color: rgb(0, 117, 156)
   }
   body {
 
@@ -1152,7 +1165,7 @@ iframe {
   }
 
   .home{
-    padding: 5rem 0 5rem;
+    padding: 8rem 0 4rem;
   }
   .home__img{
     width: 15rem;
@@ -1201,6 +1214,8 @@ iframe {
 
   }
 
+  
+
   .nav{
     /* height: calc(var(--header-height) + 1.5rem); */
     column-gap: 3rem;
@@ -1228,7 +1243,7 @@ iframe {
   }
   
   .home{
-    padding: 5rem 0 5rem;
+    padding: 7rem 0 4rem;
   }
   .home__container{
     align-items: flex-start;
@@ -1292,7 +1307,7 @@ iframe {
   }
 
   .home{
-    padding: 13rem 0 5rem;
+    padding: 8rem 0 5rem;
   }
   .home__img{
     width: 350px;
